@@ -418,11 +418,12 @@ textarea:focus {
 .live-top { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; }
 
 .eta {
-  font-family: var(--serif);
-  font-size: 46px;
+  font-family: var(--sans);
+  font-size: 40px;
   font-weight: 500;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
   line-height: 0.9;
+  font-variant-numeric: tabular-nums;
 }
 
 .eta.tick { animation: tick 0.45s ease; }
@@ -509,9 +510,10 @@ textarea:focus {
 .stepper strong {
   min-width: 1.6ch;
   text-align: center;
-  font-family: var(--serif);
-  font-size: 30px;
+  font-family: var(--sans);
+  font-size: 22px;
   font-weight: 500;
+  font-variant-numeric: tabular-nums;
 }
 
 .summary {
@@ -743,10 +745,11 @@ textarea:focus {
 .day span { color: var(--muted); font-size: 12px; }
 
 .day strong {
-  font-family: var(--serif);
-  font-size: 26px;
+  font-family: var(--sans);
+  font-size: 20px;
   font-weight: 500;
   line-height: 1;
+  font-variant-numeric: tabular-nums;
 }
 
 .day.is-on { background: var(--ivory); color: #1b140c; }
